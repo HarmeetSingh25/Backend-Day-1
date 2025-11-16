@@ -6,7 +6,7 @@ let server = http.createServer((rej,res)=>{
     res.end("Hello world from the server ")
 } )
 
-server.listen(3000, () => {
+server.listen(6969, () => {
     console.log("server is running on port 3000");
     
  })
